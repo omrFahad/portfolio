@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#navIcons {
+    @apply text-slate-200
+}
+
+.btn {
+    @apply mx-1 rounded-full mt-6 w-28 h-28 text-xl font-medium capitalize text-slate-100 hover:text-slate-50
+}
+
+.title {
+    @apply text-slate-200 text-5xl font-medium
+}
+
+.subtitle {
+    @apply text-slate-300 my-4 text-2xl ps-2
+}
+
+.label {
+    @apply sm:text-lg text-gray-700 font-bold xsm:text-sm
+}
+
+.p {
+    @apply text-gray-900 sm:text-base xsm:text-sm
+}
+
+
+
+.swiper-pagination-bullet {
+    background-color: #22d3ee !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #22d3ee !important;
+}
