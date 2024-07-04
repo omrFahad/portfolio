@@ -56,7 +56,7 @@ export const projectsLinks = [
     {
         title: "Mounatin Website",
         image: Mounatin,
-        src: "https://myfirstshirt.netlify.app"
+        src: "https://mountain-crm.netlify.app/"
 
     },
 ];
