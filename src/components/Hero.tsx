@@ -56,7 +56,7 @@ const Hero = () => {
                                     delay: 0.4,
                                 }} animate={{ y: [0, 40, 0] }}
                                 className="btn  bg-teal-600 hover:bg-teal-500"
-                                onClick={() => window.location.href = "https://drive.google.com/file/d/1mv1oGAMdeMJzi5EZZlt5oC6Qf5Yis1QW/view"
+                                onClick={() => window.location.href = "https://drive.google.com/file/d/1RuIKkKyFfNjUkGkxcrwCoD_l0S1cJ96Q/view"
                                 }
                             >
                                 downlaod<br /> resume
