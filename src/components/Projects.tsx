@@ -10,7 +10,7 @@ const Project = () => {
 
 
     return (
-        <section className=" pb-4 my-10 bg-slate-900" id="projects">
+        <section className=" pb-12 my-10 bg-slate-900" id="projects">
             <div className="md:container px-5 pt-14 min-h-screen md:min-h-min flex flex-col justify-between">
                 <div className="tape ">
                     <h2 className=" text-slate-200  text-5xl font-medium">
@@ -21,7 +21,7 @@ const Project = () => {
                     </h4>
                     <br />
                 </div>
-                <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
+                <div className="flex items-center lg:flex-row flex-col-reverse gap-7 ">
                     <motion.span
                         initial="hidden"
                         animate="visible"
@@ -32,14 +32,14 @@ const Project = () => {
                         <Image
                             src={ProjectSvg}
                             alt="..."
-                            className=" w-[30rem] h-[30rem]   rounded-3xl"
+                            className=" w-[24rem] h-[24rem]   rounded-3xl"
                         />
                     </motion.span>
                     <Swiper
                         pagination={{ clickable: true }}
                         spaceBetween={10}
                         modules={[Pagination]}
-                        className="rounded-xl pb-16 lg:max-w-md xsm:max-w-sm shadow-lg shadow-gray-500 my-10"
+                        className="rounded-xl pb-16 lg:max-w-sm xsm:max-w-xs shadow-lg shadow-gray-500 my-10"
                     >
                         {projectsLinks.map((link, index) => (
 
